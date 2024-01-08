@@ -1,0 +1,5 @@
+ver la lista de las tablas en la terminal
+Select-String -Path "C:Ingresa\TuRuta\Aqui\backup_20240104.sql" -Pattern "CREATE TABLE"
+
+ver la lista de las tablas en la en un archivo txt
+Select-String -Path "C:\Ingresa\TuRuta\Aqui\backup_20240108.sql" -Pattern "CREATE TABLE" > C:\Ingresa\TuRuta\Aqui\salida.txt
